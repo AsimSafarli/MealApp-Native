@@ -1,9 +1,12 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-function MealDetailPage() {
-  return (
-    <Text>MealDetailPage meal id</Text>
+function MealDetailPage({ route }) {
+    const mealId = route.params.mealId
+    const mealTitle = route.params.mealTitle
+
+      return (
+    <Text> MealDetailPage meal - {mealId} </Text>
   )
 }
 

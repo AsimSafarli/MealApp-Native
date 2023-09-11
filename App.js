@@ -11,7 +11,12 @@ export default function App() {
     <StatusBar style='black' />
     <NavigationContainer>
     <Stack.Navigator>
-      <Stack.Screen  name='Categories' component={CategoriesScreen} />
+      <Stack.Screen  
+      name='Categories' 
+      component={CategoriesScreen} 
+    
+
+      />
       <Stack.Screen  name='Meals Overview' component={MealsOverview} />
 
     </Stack.Navigator>
